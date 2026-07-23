@@ -1,2 +1,2 @@
 # dynamic-evaluation-public
-An ALLPLAN PythonPart for the dynamic evaluation of the current loaded objects in a separate App
+A PythonPart that tracks the objects a all currently loaded drawing files in ALLPLAN and evaluates attributes and quantities in tabular and graphical way
