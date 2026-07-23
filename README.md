@@ -3,7 +3,7 @@ A PythonPart that tracks the objects of all currently loaded drawing files in AL
 ## Installation
 The PythonPart **DynamicEvaluation** can be installed directly from the Plugin Manager in ALLPLAN.
 
-Alternatively, the corresponding ***.allep** package can be downloaded from the [release page](url of the release).\
+Alternatively, the corresponding ***.allep** package can be downloaded from the [release page](https://github.com/AnkeNiedermaier/dynamic-evaluation-public/releases).\
  ***.allep** files are ALLPLAN internal setups that can be installed via drag and drop into the program window.
 
 At least the version 2027 is needed to install and use the PythonPart.
