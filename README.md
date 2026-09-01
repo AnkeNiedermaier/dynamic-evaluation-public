@@ -24,7 +24,7 @@ Additionaly it is also added to the ActionBar in a new created task area **Dynam
 ## Workflow
 In general, all installed PythonParts can be found in the Library palette, no matter if an additional ActionBar entry is created or not. They are started either with a **double-click** on the icon or per **Drag and Drop** into the viewport. This shows the corresponding Properties palette and executes the underlying skripts.
 
-The evaluation as such is executed in a separate independend window that can be opened in clicking the corresponding **Evaluation window start** button in the palette.
+The evaluation as such runs in a separate independend window that can be opened in clicking the corresponding **Evaluation window start** button in the palette.
 
 > ⚠️IMPORTANT\
 This is the only necessary step in the palette. Once the Evaluation window has been opened, the pallete can be closed and work in ALLPLAN can continue as usual - opening new drawing files, changing projects, modifying objects ...
@@ -40,6 +40,17 @@ For **Bar** and **Column** diagrams also a second sorting criteria can be used t
 > ⚠️IMPORTANT\
 If Key and Sorting attribute are identical or the Sorting attribute is set to **None** it will be ignored. As soon as the Diagram type **Ring** or **Pie** is choosen, the Sorting attribute is disabled as it is currently not supported by this types
 
+## Tools and menues
+
 The **Menu** bar at the top of the window offers several possibilities to customize the diagramm apperance and export, save or load content.
+
+### File menu
+
+Besides the life tracking that updates automatically during changes, it is also possible to save a static snapshot of the current loaded data for later review. Therefor the **File** menu contains the two options
+- **Save as Snapshot** to write the current data into a file
+- **Open Snapshot file** to load a previous saved state into the app window. It can then be explored in the same way as the dynamic one in defining key or quantity attribute, changing the diagram type ....
+
+> ⚠️IMPORTANT\
+Once a static file is loaded, the dynamic update is paused. At the same time the **Restart dynamic update!** button will be enabled and when it is clicked the life synchronisation will start again
 
 
