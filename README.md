@@ -27,7 +27,7 @@ In general, all installed PythonParts can be found in the Library palette, no ma
 The evaluation as such runs in a separate independend window that can be opened in clicking the corresponding **Evaluation window start** button in the palette.
 
 > ⚠️IMPORTANT\
-This is the only necessary step in the palette. Once the Evaluation window has been opened, the pallete can be closed and work in ALLPLAN can continue as usual - opening new drawing files, changing projects, modifying objects ...
+This is the only necessary step in the palette. Once the Evaluation window has been opened, the palette can be closed and work in ALLPLAN can continue as usual - opening new drawing files, changing projects, modifying objects ...
 
 ## General usage
 The window is divided into two corresponding parts, a **table** at the left and a **diagram** at the right side, showing attributes and quantities of the current loaded model data.
@@ -40,17 +40,42 @@ For **Bar** and **Column** diagrams also a second sorting criteria can be used t
 > ⚠️IMPORTANT\
 If Key and Sorting attribute are identical or the Sorting attribute is set to **None** it will be ignored. As soon as the Diagram type **Ring** or **Pie** is choosen, the Sorting attribute is disabled as it is currently not supported by this types
 
-## Tools and menues
+The accurate quantity value of an attribute is not only listed in the table, but also shown when hoovering over a slice or bar in the diagram
 
-The **Menu** bar at the top of the window offers several possibilities to customize the diagramm apperance and export, save or load content.
+## Tools and menus
+
+The **Menu** bar at the top of the window offers several possibilities to customize the diagram apperance and export, save or load content.
 
 ### File menu
 
 Besides the life tracking that updates automatically during changes, it is also possible to save a static snapshot of the current loaded data for later review. Therefor the **File** menu contains the two options
 - **Save as Snapshot** to write the current data into a file
-- **Open Snapshot file** to load a previous saved state into the app window. It can then be explored in the same way as the dynamic one in defining key or quantity attribute, changing the diagram type ....
+- **Open Snapshot file** to load a previous saved state into the Evaluation window. It can then be explored in the same way as the dynamic one in defining Key or Quantity attribute, changing the diagram type ....
 
 > ⚠️IMPORTANT\
-Once a static file is loaded, the dynamic update is paused. At the same time the **Restart dynamic update!** button will be enabled and when it is clicked the life synchronisation will start again
+Once a static file is loaded, the dynamic update is paused. At the same time the **Restart dynamic update!** button becomes enabled and if it is clicked the life synchronisation will start again
 
+- **Print content** to print both the diagram and the table
+
+### Export menu
+
+Besides printing the **Export** menu offers additional possibilities to save the content in other forms for further use
+- export the table as **Excel file**
+- save the diagram as **bitmap**
+
+### Diagram menu
+
+To controll the behaviour and appearance of the diagram the menu offers several options that could be checked or unchecked
+- show the bars or slices in **Gradient** color
+- place a **Legend** at the right side of the diagram
+- show **Grid lines** in Bar and Column diagrams
+- **Label** the single slices in Pie and Ring diagramm
+- **Animation** to redraw the diagram with every action
+
+
+### Info menu
+
+A direct link to the documentation is provided within the **Help** option, whereas the **About** entry shows information about the current installed version
+
+When closing the Evaluation window, the object tracking is stopped immediately. It can be restarted in opening the window again as described at the beginning.
 
