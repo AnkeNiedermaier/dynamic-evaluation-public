@@ -34,19 +34,19 @@ The window is divided into two corresponding parts, a **table** at the left and 
 
 The attribute to be focussed on and the quantity to be calculated is selected with the **Key attribute** and **Quantity attribute** Pulldown in the Toolbar. Besides choosing an existing entry, for example **Material** and **Volume** any ALLPLAN attribute - also userdefined ones - can be added to the Pulldown in typing in the attribute name.
 
-<img src = "./docs/AttribPulldown.png" width = 350/><br> 
+<img src = "./docs/AttribPulldown.png" width = 400/><br> 
 
 Whereas the table structure as such is fixed, the kind of diagram is choosen from the **Diagram type** Pulldown in the toolbar.\
 For **Bar** and **Column** diagrams also a second sorting criteria can be used to structure the data, for example the **Piece** of **Objects** for the different **Materials**. When the corresponding Checkbox is ticked another Pulldown for the **Sorting attribute** is available that can be used in the same way like **Key** and **Quantity** in selecting or typing in the desired attribute of interest.
 
-<img src = "./docs/DiagramPulldown.png" width = 350/><br> 
+<img src = "./docs/DiagramPulldown.png" width = 400/><br> 
 
 > ⚠️IMPORTANT\
 If Key and Sorting attribute are identical or the Sorting attribute is set to **None** it will be ignored. As soon as the Diagram type **Ring** or **Pie** is choosen, the Sorting attribute is disabled as it is currently not supported by this types
 
 The accurate quantity value of an attribute is not only listed in the table, but also shown when hoovering over a slice or bar in the diagram
 
-<img src = "./docs/HooverText.png" width = 400/><br> 
+<img src = "./docs/HooverText.png" width = 450/><br> 
 
 ## Tools and menus
 
@@ -58,12 +58,12 @@ Besides the life tracking that updates automatically during changes, it is also 
 - **Save as Snapshot** to write the current data into a file
 - **Open Snapshot file** to load a previous saved state into the Evaluation window. It can then be explored in the same way as the dynamic one in defining Key or Quantity attribute, changing the diagram type ....
 
-<img src = "./docs/FileMenu.png" width = 300/><br> 
+<img src = "./docs/FileMenu.png" width = 200/><br> 
 
 > ⚠️IMPORTANT\
 Once a static file is loaded, the dynamic update is paused. At the same time the **Restart dynamic update!** button becomes enabled and if it is clicked the life synchronisation will start again
 
-<img src = "./docs/RestartEval.png" width = 250/><br> 
+<img src = "./docs/RestartEval.png" width = 200/><br> 
 
 - **Print content** to print both the diagram and the table
 
@@ -82,7 +82,7 @@ To controll the behaviour and appearance of the diagram the menu offers several 
 - **Label** the single slices in Pie and Ring diagramm
 - **Animation** to redraw the diagram with every action
 
-<img src = "./docs/DiagramMenu.png" width = 200/><br> 
+<img src = "./docs/DiagramMenu.png" width = 150/><br> 
 
 
 ### Info menu
